@@ -13,9 +13,4 @@ ament_target_dependencies(cartesian_constant_velocity_controller rclcpp moveit_r
 install(TARGETS cartesian_constant_velocity_controller
   DESTINATION lib/${PROJECT_NAME})
 
-install(
-  DIRECTORY launch config
-  DESTINATION share/${PROJECT_NAME}
-)
-
 ament_package()
